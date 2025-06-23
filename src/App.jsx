@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   return (
-    <div className="btn">
+    <div className="my-form">
       <h1>Words of Wisdom</h1>
       {loading ? (
         <PacmanLoader className="loader" />
